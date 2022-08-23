@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/main.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">  
+    
+    </main>
+
+    <template id="card">
+        <div class="card">
+            <button id="refresh-btn"><i class="fa-solid fa-arrows-rotate fa-2x"></i></button>
+            <div class="pokeball--color"></div>
+            <div class="black-line"></div>
+            <div class="img-container">
+                <img src="" alt="pokemon" class="pokemon-img">
+            </div>
+            <div class="info-container">    
+                <div class="pokemon-name">
+                    <h1>Pokemon name</h1>
+                    <h2 class="hp">Hp</h2>
+                </div>
+                <div class="pokemon-about">
+                    <div class="stat-item" id="ataque" title="Ataque"><i class="fa-solid fa-bolt fa-2x"></i> <span class="stat-number"></span> </div>
+                    <div  class="stat-item" id="defensa" title="Defensa"><i class="fa-solid fa-shield fa-2x"></i> <span class="stat-number"></span> </div>
+                    <div  class="stat-item" id="especial" title="Especial"><i class="fa-solid fa-fire-flame-curved fa-2x"></i> <span class="stat-number"></span></div>
+                </div>
+            </div>
+        </div>
+       
+    </template>
+    <script src="scripts.js"></script>    
+</body>
+
+</html>
